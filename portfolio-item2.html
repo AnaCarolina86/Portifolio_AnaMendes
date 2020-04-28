@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevAna Portifolio Website</title>
+
+    <!-- Styles links -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro:400,500,600&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+   
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devcarolina.png" alt="Logo dev carolina">
+        </div>
+       
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#experiences" class="nav_link">
+                    My Experiences</a></li>
+                <li class="nav_item"><a href="index.html#about-me" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#work" class="nav_link">My Work</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="navigation">
+            <span class="hamburger"></span>
+        </button>
+
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section_title section_title_intro">
+            The  <strong>Simon Game</strong>
+        </h1>
+        
+        <p class="section_subtitle section_subtitle_intro">
+             a JavaScript project
+        </p>
+
+        <img src="img/me.jpg" alt="Dev Ana Carolina Mendes" class="intro-img" >
+    </section>
+
+    <div class="portifolio-item-individual">
+        <p>It is a simple game built with JavaScript/HTML5/CSS3. The game starts when shows to the user the first button that needs to be pressed, the user press, and then the game shows the next one, and it continuos until the user makes a mistake.</p>
+        <img src="img/simon.PNG" alt="image of the simon game">
+        <p>In the first version of the game, the user needed to remember all the sequences of buttons with no help. It was too difficult to play. So I decided to change it. Now the user sees all the sequences of buttons, the game is easier and more interactive.</p>
+        
+        <p>
+            <a href="https://jovial-yalow-22f2a2.netlify.app/" class="portfolio-item-link">Link</a>
+        </p>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:anaccm86@gmail.com" class="footer_link">anaccm86@gmail.com</a>
+
+        <ul class="social_list">
+            <li class="social_list_item"><a class="social_list_link" href="#">
+                <i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social_list_item"><a class="social_list_link" href="#">
+                <i class="fab fa-github"></i></a></li>
+            <li class="social_list_item"><a class="social_list_link" href="#">
+                <i class="fab fa-instagram"></i></a></li>
+        </ul>
+
+    </footer>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
+
+<!-- I can use a header tag for each heading section, 
+    wrapping the h2 tag and the p-->

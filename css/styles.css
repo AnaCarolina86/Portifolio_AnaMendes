@@ -459,6 +459,21 @@ header{
     margin-right: auto;
 }
 
+.portfolio-item-link{
+    color: inherit;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+}
+
+.portfolio-item-link:hover{
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.portifolio-item-individual img{
+    margin: 0 auto;
+}
+
 
 
 
